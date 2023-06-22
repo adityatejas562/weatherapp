@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-image: radial-gradient(circle at top right, #a0c4ff, #69a3f5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+input {
+    padding: 1rem;
+    border-radius: 25px;
+    border: none;
+    background-color: #fff;
+    font-family: inherit;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    min-width: 300px;
+    font-size: 1rem;
+    color: #555;
+}
+
+input:focus {
+    outline: none;
+}
+
+.weather {
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    position: relative;
+}
+
+.weather h2 {
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+.weather h2 img {
+    margin: 0 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.weather small {
+    color: #ccc;
+}
+
+.error {
+    color: #ff6347;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.weather::before {
+    content: "";
+    position: absolute;
+    top: -40px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    background-image: radial-gradient(circle at center, #ffd300, transparent);
+    border-radius: 50%;
+}
