@@ -30,5 +30,7 @@ cd weather-app
 
 ## Usage
 1.Enter a location in the search input.
+
 2.Press the Enter key or click the search button.
+
 3.The app will retrieve the weather information for the entered location and display it on the screen.
