@@ -8,6 +8,7 @@ The Weather App is a simple web application that allows users to search for weat
 - Search by Location: Users can enter a location in the search input to get the weather information for that location.
 - Display Weather: The app displays the current temperature in Celsius and the weather conditions for the searched location.
 - Responsive Design: The user interface is designed to be responsive and adapt to different screen sizes.
+<img width="920" alt="Screenshot (129)" src="https://github.com/adityatejas562/weatherapp/assets/112709817/9a1681ab-8519-49f6-8c2f-c1c8d7bf2088">
 
 ## Technologies Used
 
